@@ -10,95 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d556023-cec6-47b8-a29c-e0b7bed8592f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/szakdolgozat/balancer/TestBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/szakdolgozat/transaction/TestTransaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/block_chain.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/block_chain.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ips.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ips.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/keys.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/keys.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/balancer/Balancer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/balancer/Balancer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/block/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/block/Block.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/BlockChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/BlockChain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/change/to/exception/BlockChainChangeToException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/change/to/exception/BlockChainChangeToException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/controller/BlockChainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/controller/BlockChainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/controller/Encrypter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/controller/Encrypter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/read/exception/BlockChainReadException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/read/exception/BlockChainReadException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/reader/writer/BlockChainReaderWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/reader/writer/BlockChainReaderWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/validator/BlockChainValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/validator/BlockChainValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/write/block/exception/BlockChainWriteBlockException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/write/block/exception/BlockChainWriteBlockException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/write/transaction/exception/BlockChainWriteTransactionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/block/chain/write/transaction/exception/BlockChainWriteTransactionException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/centralized/label/CentralizedLabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/centralized/label/CentralizedLabel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/checker/Checker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/checker/Checker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/config/Config$Properties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/config/Config$Properties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/config/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/current/balance/label/CurrentBalanceLabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/current/balance/label/CurrentBalanceLabel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/current/balance/refresh/button/CurrentBalanceRefreshButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/current/balance/refresh/button/CurrentBalanceRefreshButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/current/balance/refresh/button/action/handler/CurrentBalanceRefreshButtonActionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/current/balance/refresh/button/action/handler/CurrentBalanceRefreshButtonActionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/current/balance/text/CurrentBalanceText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/current/balance/text/CurrentBalanceText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/current/balance/widget/CurrentBalanceWidget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/current/balance/widget/CurrentBalanceWidget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/decrypter/Decrypter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/decrypter/Decrypter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/dialog/warner/DialogWarner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/dialog/warner/DialogWarner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/guesser/Guesser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/guesser/Guesser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ips/Ips.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ips/Ips.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ips/add/exception/IpsAddException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ips/add/exception/IpsAddException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ips/controller/IpsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ips/controller/IpsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ips/read/exception/IpsReadException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ips/read/exception/IpsReadException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ips/reader/writer/IpsReaderWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ips/reader/writer/IpsReaderWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/key/NamedKeyPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/key/NamedKeyPair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/key/selector/choice/box/KeySelectorChoiceBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/key/selector/choice/box/KeySelectorChoiceBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/key/selector/choice/box/change/listener/KeySelectorChoiceBoxChangeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/key/selector/choice/box/change/listener/KeySelectorChoiceBoxChangeListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/key/selector/choice/box/values/KeySelectChoiceBoxOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/key/selector/choice/box/values/KeySelectChoiceBoxOptions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/key/selector/widget/KeySelectorWidget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/key/selector/widget/KeySelectorWidget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/key/text/area/PublicKeyTextArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/key/text/area/PublicKeyTextArea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/key/text/area/text/PublicKeyTextAreaText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/key/text/area/text/PublicKeyTextAreaText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/key/widget/PublicKeyWidget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/key/widget/PublicKeyWidget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/keys/Keys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/keys/Keys.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/keys/add/exception/KeysAddException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/keys/add/exception/KeysAddException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/keys/controller/KeysController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/keys/controller/KeysController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/keys/read/exception/KeysReadException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/keys/read/exception/KeysReadException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/keys/reader/writer/KeysReaderWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/keys/reader/writer/KeysReaderWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/miner/Miner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/miner/Miner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/mining/button/MiningButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/mining/button/MiningButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/mining/button/event/handler/MiningButtonEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/mining/button/event/handler/MiningButtonEventHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/mining/button/text/MiningButtonText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/mining/button/text/MiningButtonText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/mining/thread/MiningThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/mining/thread/MiningThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/mining/widget/MiningWidget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/mining/widget/MiningWidget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/property/loader/PropertyLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/property/loader/PropertyLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/receiver/thread/ReceiverThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/receiver/thread/ReceiverThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/send/button/SendButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/send/button/SendButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/send/button/event/handler/SendButtonEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/send/button/event/handler/SendButtonEventHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/sender/Sender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/sender/Sender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/texts/Texts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/texts/Texts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/Transaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/amount/text/field/TransactionAmountTextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/amount/text/field/TransactionAmountTextField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/amount/text/field/text/TransactionAmountTextFieldText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/amount/text/field/text/TransactionAmountTextFieldText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/amount/widget/TransactionAmountWidget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/amount/widget/TransactionAmountWidget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/key/text/area/TransactionPublicKeyTextArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/key/text/area/TransactionPublicKeyTextArea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/key/text/area/text/TransactionPublicKeyTextAreaText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/key/text/area/text/TransactionPublicKeyTextAreaText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/key/widget/TransactionWidget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/key/widget/TransactionWidget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/submit/widget/TransactionSubmitWidget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/transaction/submit/widget/TransactionSubmitWidget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/Ujkripto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/Ujkripto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/application/UjkriptoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/application/UjkriptoApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/key/generator/KeyGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/key/generator/KeyGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/key/generator/button/KeyGeneratorButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/key/generator/button/KeyGeneratorButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/key/generator/button/action/handler/KeyGeneratorButtonActionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/key/generator/button/action/handler/KeyGeneratorButtonActionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/key/generator/exception/KeyGeneratorException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/key/generator/exception/KeyGeneratorException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/key/generator/key/name/field/KeyGeneratorKeyNameField.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/key/generator/key/name/field/KeyGeneratorKeyNameField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/key/generator/widget/KeyGeneratorWidget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/key/generator/widget/KeyGeneratorWidget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/key/generator/widget/key/name/field/value/KeyGeneratorWidgetKeyNameFieldValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/key/generator/widget/key/name/field/value/KeyGeneratorWidgetKeyNameFieldValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/layout/UjkriptoLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/layout/UjkriptoLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/scene/UjkriptoScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/scene/UjkriptoScene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/server/UjkriptoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/ujkripto/server/UjkriptoServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szakdolgozat/warning/dialog/WarningDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdolgozat/warning/dialog/WarningDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ujkripto-20.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ujkripto-20.0.0.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -515,8 +430,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "vue.rearranger.settings.migration": "true"
@@ -548,7 +463,7 @@
       <recent name="D:\Szakdolgozatok\20\ujkripto\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.ujkripto [clean,package,exec:java...]">
+  <component name="RunManager" selected="JUnit.All in ujkripto">
     <configuration name="UjkriptoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="szakdolgozat.ujkripto.application.UjkriptoApplication" />
       <module name="ujkripto" />
@@ -558,6 +473,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ujkripto (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ujkripto" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ujkripto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ujkripto" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -632,11 +563,15 @@
     <list>
       <item itemvalue="Application.UjkriptoApplication" />
       <item itemvalue="JAR Application.ujkripto-20.0.0.jar" />
+      <item itemvalue="JUnit.All in ujkripto" />
+      <item itemvalue="JUnit.All in ujkripto (1)" />
       <item itemvalue="Maven.ujkripto [clean,package,exec:java...]" />
       <item itemvalue="Maven.ujkripto [clean,package,-Xlint:unchecked]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in ujkripto" />
+        <item itemvalue="JUnit.All in ujkripto (1)" />
         <item itemvalue="JAR Application.ujkripto-20.0.0.jar" />
         <item itemvalue="Application.UjkriptoApplication" />
       </list>
@@ -657,7 +592,7 @@
       <workItem from="1588484189909" duration="38416000" />
       <workItem from="1588575006978" duration="437000" />
       <workItem from="1588591750597" duration="609000" />
-      <workItem from="1778929735723" duration="849000" />
+      <workItem from="1778929735723" duration="5759000" />
     </task>
     <servers />
   </component>
@@ -703,6 +638,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ujkripto$All_in_ujkripto__1_.ic" NAME="All in ujkripto (1) Coverage Results" MODIFIED="1778931863344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ujkripto$All_in_ujkripto.ic" NAME="All in ujkripto Coverage Results" MODIFIED="1779098310720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/szakdolgozat/transaction/Transaction.java">
