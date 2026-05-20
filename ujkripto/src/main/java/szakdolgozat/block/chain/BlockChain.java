@@ -25,6 +25,9 @@ public class BlockChain extends ArrayList<Block> {
     }
 
     public Block getLast() {
+        if (size()==0) {
+            return null;
+        }
         return get(size() - 1);
     }
 

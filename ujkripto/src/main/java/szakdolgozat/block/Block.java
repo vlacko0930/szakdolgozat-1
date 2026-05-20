@@ -26,6 +26,9 @@ public class Block {
         resolution = blockDataAsStringList.get(3);
         transactions = new ArrayList<>();
         for (int index = 4; index < blockDataAsStringList.size(); index += 5){
+            if(blockDataAsStringList.get(index).equals(BLOCK_END_TOKEN)) {
+                break;
+            }
             Transaction transaction = new Transaction();
             transaction.setTimeStamp(Long.parseLong(blockDataAsStringList.get(index)));
             transaction.setSender(blockDataAsStringList.get(index + 1));
